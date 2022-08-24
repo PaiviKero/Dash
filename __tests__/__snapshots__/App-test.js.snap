@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`App renders correctly 1`] = `
 <View
   style={
     Object {
@@ -12,7 +12,10 @@ exports[`renders correctly 1`] = `
   }
 >
   <Text>
-    Open up App.js to start working on your app! Started!
+    Open up App.js to start working on your app! Add new component!
+  </Text>
+  <Text>
+    Other task
   </Text>
 </View>
 `;

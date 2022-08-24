@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskItem name property renders correctly 1`] = `
+<Text>
+  Other task
+</Text>
+`;
+
+exports[`TaskItem renders correctly 1`] = `
+<Text>
+  Some task
+</Text>
+`;
