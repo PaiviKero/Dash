@@ -9,7 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest"
+    "test": "jest --verbose --coverage",
+    "watchtest": "jest --verbose --coverage",
+    "updatetest": "jest --verbose --coverage"
   },
   "jest": {
     "preset": "react-native",
@@ -19,7 +21,13 @@
     ],
     "transformIgnorePatterns": [
       "node_modules/(?!@react-native|react-native|expo-status-bar)"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 80
+      }
+    },
+    "coveragePathIgnorePatterns": []
   },
   "dependencies": {
     "expo": "^46.0.0",
