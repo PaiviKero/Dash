@@ -1,8 +1,20 @@
-import React from "react";
-import { Text } from "react-native";
+import React, { useState } from "react";
+
+import { Input } from "./styles";
+import { strings } from "resources/strings";
 
 export const TaskItem = ({ task = {} }) => {
-  const { name = "Some task" } = task;
+  const [name, setName] = useState(task.name);
 
-  return <Text>{name}</Text>;
+  // TODO: saving task somewhere ????
+  return (
+    <>
+      <Input
+        label={strings.task.name}
+        value={name}
+        // TODO: test changing text
+        onChangeText={(text) => setName(text)}
+      />
+    </>
+  );
 };

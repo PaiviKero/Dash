@@ -11,11 +11,188 @@ exports[`App renders correctly 1`] = `
     }
   }
 >
-  <Text>
-    Open up App.js to start working on your app! Add new component!
-  </Text>
-  <Text>
-    Other task
-  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgb(231, 231, 231)",
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+        },
+        Object {
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.26)",
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "transform": Array [
+            Object {
+              "scaleY": 0.5,
+            },
+          ],
+          "zIndex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingBottom": 0,
+            "paddingTop": 0,
+          },
+          Object {
+            "minHeight": 60,
+          },
+        ]
+      }
+    >
+      <View
+        collapsable={false}
+        pointerEvents="none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": 3,
+              },
+            ],
+            "zIndex": 3,
+          }
+        }
+      >
+        <Text
+          collapsable={false}
+          maxFontSizeMultiplier={1.5}
+          numberOfLines={1}
+          onLayout={[Function]}
+          style={
+            Object {
+              "color": "#6200ee",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 30,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": -12,
+                },
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Task Name
+        </Text>
+        <Text
+          collapsable={false}
+          maxFontSizeMultiplier={1.5}
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 30,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": -12,
+                },
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Task Name
+        </Text>
+      </View>
+      <TextInput
+        editable={true}
+        maxFontSizeMultiplier={1.5}
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        placeholderTextColor="rgba(0, 0, 0, 0.54)"
+        selectionColor="#6200ee"
+        style={
+          Array [
+            Object {
+              "flexGrow": 1,
+              "margin": 0,
+            },
+            Object {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            Object {
+              "height": 60,
+            },
+            Object {
+              "paddingBottom": 4,
+              "paddingTop": 24,
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontVariant": undefined,
+              "fontWeight": undefined,
+              "textAlign": "left",
+              "textAlignVertical": "center",
+            },
+            false,
+            Array [
+              Object {},
+            ],
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value="Other task"
+      />
+    </View>
+  </View>
 </View>
 `;
